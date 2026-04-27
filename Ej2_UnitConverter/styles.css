@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: black;
+}
+
+input[type="number"],
+select {
+    padding: 10px;
+    margin:10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+p {
+    font-size: 18px;
+    margin:10px;
+}

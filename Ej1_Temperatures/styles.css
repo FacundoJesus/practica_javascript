@@ -1,0 +1,49 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: azure;
+}
+
+h1 {
+    color: black;
+
+}
+
+input[type="text"],
+select {
+    padding: 0px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 200px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+p {
+    font-size:18px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+#converted {
+    color:blue;
+    font-size: 18px;
+    font-weight: bold;
+}
