@@ -22,6 +22,7 @@ let todoApp = {
         this.tasks.forEach((task,index) => {
             const li = document.createElement("li");
             li.textContent = task.text;
+
             li.onclick = () => this.toggleTask(index);
 
             if(task.completed) {
@@ -32,6 +33,7 @@ let todoApp = {
         })
     }
 };
+
 
 document.getElementById("addTask").onclick = () => {
 
