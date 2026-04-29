@@ -68,6 +68,8 @@ document.getElementById('createPost').onclick = async function() {
         // Limpio campos
         document.getElementById('postTitle').value = '';
         document.getElementById('postBody').value = '';
+
+        // Muestro los Posts
         fetchPosts();
 
     }catch(error) {
